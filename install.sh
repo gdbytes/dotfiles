@@ -33,10 +33,6 @@ mkdir $HOME/Sites
 # Create Code directory for Laravel Homestead
 mkdir $HOME/Code
 
-# Set macOS preferences
-# We will run this last because this will reload the shell
-source .macos
-
 # Copy tmux.conf
 cp tmux.conf ~/.tmux.conf
 
@@ -45,3 +41,7 @@ gem install tmuxinator
 
 # Setup base tmuxinator session
 cp tmuxinator.yml ~/.tmuxinator/sesh.yml
+
+# Set macOS preferences
+# We will run this last because this will reload the shell
+source .macos
