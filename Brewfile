@@ -47,3 +47,5 @@ mas 'Affinity Designer', id: 824171161
 mas 'Slack', id: 803453959
 mas 'The Unarchiver', id: 425424353
 mas 'Magnet', id: 441258766
+mas 'Trello', id: 1278508951
+mas 'Tweetbot for Twitter', id: 557168941
