@@ -2,7 +2,6 @@
 tap 'homebrew/bundle'
 tap 'homebrew/dupes'
 tap 'homebrew/versions'
-tap 'homebrew/homebrew-php'
 tap 'caskroom/cask'
 
 # Install ZSH
@@ -15,7 +14,6 @@ brew 'tree'
 brew 'mas'
 brew 'node'
 brew 'wget'
-brew 'php71'
 brew 'tmux'
 brew 'reattach-to-user-namespace'
 brew 'yarn'
