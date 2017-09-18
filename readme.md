@@ -15,7 +15,7 @@ Enjoy
 Follow these install instructions to setup a new Mac.
 
 1. Update macOS to the latest version with the App Store
-2. Install Xcode from the App Store, open it and accept the license agreement
+2. Install Xcode from the App Store, open it and accept the license agreement (Xcode is required to install MAS CLI app - CLI Tools is not sufficient)
 3. Install macOS Command Line Tools by running `xcode-select --install`
 4. Clone this repo to `~/.dotfiles`
 5. Append `/usr/local/bin/zsh` to the end of your `/etc/shells` file
