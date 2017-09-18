@@ -33,6 +33,9 @@ mkdir $HOME/Sites
 # Create Code directory for Laravel Homestead
 mkdir $HOME/Code
 
+# Copy tmux.conf - Will consider symlink later
+cp .zshrc ~/.zshrc
+
 # Copy tmux.conf
 cp tmux.conf ~/.tmux.conf
 
