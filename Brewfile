@@ -18,10 +18,6 @@ brew 'tmux'
 brew 'reattach-to-user-namespace'
 brew 'yarn'
 
-# Development
-brew unlink php56
-brew install php71
-
 # Apps
 cask 'aerial'
 cask 'alfred'
