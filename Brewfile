@@ -31,7 +31,7 @@ cask 'slack'
 cask 'sublime-text'
 cask 'transmit'
 cask 'vagrant'
-cask 'virtualbox'
+# cask 'virtualbox' // Does not properly install. Looking for a solution.
 cask 'vlc'
 cask 'imageoptim'
 cask 'figma'
