@@ -31,7 +31,9 @@ cask 'slack'
 cask 'sublime-text'
 cask 'transmit'
 cask 'vagrant'
-# cask 'virtualbox' // Does not properly install. Looking for a solution.
+# Virtualbox needs installing again manually after checking 'Allow' in macOS Privacy settings.
+# macOS security prevents it from installing properly.
+cask 'virtualbox'
 cask 'vlc'
 cask 'imageoptim'
 cask 'figma'
