@@ -27,8 +27,8 @@ mv composer.phar /usr/local/bin/composer
 # Install global Composer packages
 /usr/local/bin/composer global require laravel/installer  laravel/valet
 
-# Install Laravel Valet
-$HOME/.composer/vendor/bin/valet install
+# Install Laravel Valet (Fails on High Sierra when trying to install 
+# $HOME/.composer/vendor/bin/valet install
 
 # Create a Sites directories
 mkdir $HOME/Sites
@@ -36,7 +36,7 @@ mkdir $HOME/Sites
 # Create Code directory for Laravel Homestead
 mkdir $HOME/Code
 
-# Copy tmux.conf - Will consider symlink later
+# Copy .zshrc - Will consider symlink later
 cp .zshrc ~/.zshrc
 
 # Copy tmux.conf
@@ -46,6 +46,7 @@ cp tmux.conf ~/.tmux.conf
 sudo gem install tmuxinator
 
 # Setup base tmuxinator session
+mkdir $HOME/.tmuxinator
 cp tmuxinator.yml ~/.tmuxinator/sesh.yml
 
 # Set macOS preferences
