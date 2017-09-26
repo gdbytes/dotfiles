@@ -43,7 +43,7 @@ cp .zshrc ~/.zshrc
 cp tmux.conf ~/.tmux.conf
 
 # Install tmuxinator
-gem install tmuxinator
+sudo gem install tmuxinator
 
 # Setup base tmuxinator session
 cp tmuxinator.yml ~/.tmuxinator/sesh.yml
