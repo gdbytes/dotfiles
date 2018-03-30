@@ -31,7 +31,7 @@ Go through the [`.macos`](./.macos) file and adjust the settings to your liking.
 
 Check out the [`Brewfile`](./Brewfile) file and adjust the apps you want to install for your machine. Use [their search page](https://caskroom.github.io/search) to check if the app you want to install is available.
 
-Check out the [`config.fish`](./config.fish) file and add your own aliases/functions. This file will be copied to `~./config/fish/config.fish` and will be loaded each time Fish is started.
+Check out the [`config.fish`](./config.fish) file and add your own aliases/functions. This file will be copied to `~/.config/fish/config.fish` and will be loaded each time Fish is started.
 
 Enjoy your own Dotfiles!
 
