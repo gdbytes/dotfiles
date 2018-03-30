@@ -4,9 +4,12 @@ tap 'homebrew/dupes'
 tap 'homebrew/versions'
 tap 'caskroom/cask'
 
-# Install ZSH
-brew 'zsh'
-brew 'zsh-completions'
+# Install Fish
+brew 'fish'
+
+# Install ZSH (Replaced with Fish)
+#brew 'zsh'
+#brew 'zsh-completions'
 
 # Install Binaries
 brew 'hub'
@@ -21,23 +24,23 @@ brew 'yarn'
 # Apps
 cask 'aerial'
 cask 'alfred'
-cask 'dropbox'
 cask 'firefox'
 cask 'google-chrome'
 cask 'iterm2'
 cask 'phpstorm'
 cask 'sequel-pro'
 cask 'slack'
-cask 'sublime-text'
+cask 'visual-studio-code'
 cask 'transmit'
-cask 'vagrant'
-# Virtualbox needs installing again manually after checking 'Allow' in macOS Privacy settings.
-# macOS security prevents it from installing properly.
-cask 'virtualbox'
+cask 'docker'
+cask 'docker-toolbox'
 cask 'vlc'
 cask 'imageoptim'
 cask 'figma'
-cask 'rambox'
+cask 'franz'
+cask 'nextcloud'
+cask 'bartender'
+cask 'postbox'
 
 # Install Mac App Store apps
 mas 'Amphetamine', id: 937984704
@@ -45,5 +48,4 @@ mas 'Affinity Designer', id: 824171161
 mas 'Slack', id: 803453959
 mas 'The Unarchiver', id: 425424353
 mas 'Magnet', id: 441258766
-mas 'Trello', id: 1278508951
 mas 'Tweetbot for Twitter', id: 557168941
