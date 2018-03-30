@@ -18,13 +18,10 @@ Follow these install instructions to setup a new Mac.
 2. Install Xcode from the App Store, open it and accept the license agreement (Xcode is required to install MAS CLI app - CLI Tools is not sufficient)
 3. Install macOS Command Line Tools by running `xcode-select --install`
 4. Clone this repo to `~/.dotfiles`
-5. Append `/usr/local/bin/zsh` to the end of your `/etc/shells` file
-6. Run `install.sh` to start the installation
-7. Restart your computer to finalize the process
+5. Run `install.sh` to start the installation
+6. Restart your computer to finalize the process
 
 Your Mac is now ready to use!
-
-> Note: you can use a different location than `~/.dotfiles` if you want. Just make sure you also update the reference in the `.zshrc` file.
 
 ## Your Own Dotfiles
 
