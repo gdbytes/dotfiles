@@ -3,6 +3,7 @@ tap 'homebrew/bundle'
 tap 'homebrew/dupes'
 tap 'homebrew/versions'
 tap 'caskroom/cask'
+tap 'caskroom/fonts'
 
 # Install Fish
 brew 'fish'
@@ -41,6 +42,7 @@ cask 'franz'
 cask 'nextcloud'
 cask 'bartender'
 cask 'postbox'
+cask 'font-hack-nerd-font'
 
 # Install Mac App Store apps
 mas 'Amphetamine', id: 937984704
