@@ -6,15 +6,16 @@ tap 'caskroom/fonts'
 # Install Fish
 brew 'fish'
 
-# Install ZSH (Replaced with Fish)
-#brew 'zsh'
-#brew 'zsh-completions'
+# Install ZSH
+brew 'zsh'
+brew 'zsh-completions'
+brew 'zsh-autosuggestions'
 
 # Install Binaries
 brew 'hub'
 brew 'tree'
 brew 'mas'
-brew 'node'
+brew 'node@8'
 brew 'wget'
 brew 'tmux'
 brew 'reattach-to-user-namespace'
@@ -31,15 +32,10 @@ cask 'sequel-pro'
 cask 'slack'
 cask 'visual-studio-code'
 cask 'transmit'
-cask 'docker'
-cask 'docker-toolbox'
 cask 'vlc'
-cask 'imageoptim'
 cask 'figma'
 cask 'franz'
-cask 'nextcloud'
 cask 'bartender'
-cask 'postbox'
 cask 'font-hack-nerd-font'
 
 # Install Mac App Store apps
