@@ -1,7 +1,5 @@
 # Taps
 tap 'homebrew/bundle'
-tap 'homebrew/dupes'
-tap 'homebrew/versions'
 tap 'caskroom/cask'
 tap 'caskroom/fonts'
 
